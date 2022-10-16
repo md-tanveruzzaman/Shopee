@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab, faFacebook, faGoogle, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+
+library.add(fab, faEnvelope, faPhone, faFacebook, faGoogle, faLinkedin, faTwitter)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
