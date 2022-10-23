@@ -1,6 +1,4 @@
-import { Cart } from "../../Component/Cart/Index";
-import { ProfileDropdown } from "../../Component/ProfileDropdown/Index";
-import { Search } from "../../Component/Search/Search";
+import { RightNav } from "./RightNav";
 
 export const Menu = () => {
     const menu = [
@@ -50,14 +48,7 @@ export const Menu = () => {
                         </ul>
                     </div>
                     
-                    <div className="navbar align-self-center d-flex">
-                        <Search />
-
-                        <Cart />
-
-                        <ProfileDropdown />
-                        
-                    </div>
+                    <RightNav />
                 </div>
 
             </div>

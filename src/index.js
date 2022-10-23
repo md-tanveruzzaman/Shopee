@@ -9,9 +9,9 @@ import reportWebVitals from './reportWebVitals';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faFacebook, faGoogle, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faCartArrowDown, faChevronLeft, faChevronRight, faEnvelope, faPhone, faSearch, faUser } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faEnvelope, faPhone, faFacebook, faGoogle, faLinkedin, faTwitter)
+library.add(fab, faEnvelope, faPhone, faFacebook, faGoogle, faLinkedin, faTwitter, faSearch, faUser, faCartArrowDown, faChevronLeft, faChevronRight)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
